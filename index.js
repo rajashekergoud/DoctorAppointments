@@ -169,7 +169,7 @@ const doctors = [
   },
 ];
 
-// Define API endpoints here
+
 // GET /api/doctors
 app.get("/api/doctors", (req, res) => {
   res.json(doctors);
